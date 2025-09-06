@@ -1,4 +1,4 @@
-FROM kalilinux/kali-linux-docker
+FROM kalilinux/kali-rolling
 ARG KALI_DESKTOP=kde
 RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
